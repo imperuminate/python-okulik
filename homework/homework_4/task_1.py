@@ -26,4 +26,5 @@ s_lengt = len(my_dict['str'])
 start = (s_lengt - 4) // 2
 end = start + 4
 print(my_dict['str'][start:end])
-print([my_dict['str'][i] for i in range(len(my_dict['str'])) if i % 3 == 0])
+#print([my_dict['str'][i] for i in range(len(my_dict['str'])) if i % 3 == 0])
+print(my_dict['str'][0::3])
